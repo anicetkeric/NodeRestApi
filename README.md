@@ -35,9 +35,16 @@ cd NodeRestApi
 
 Initialize NPM on your new project
 ```
-npm init
+$ npm init
 ```
 Install hapi.js plugin for Restful APIs. 
 ```
 $ npm install hapi –save
 ```
+
+Install MySQL package for Node 
+```
+$ npm install mysql --save
+```
+
+# Usage 
