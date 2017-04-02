@@ -23,3 +23,21 @@ CREATE TABLE IF NOT EXISTS `book` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 ```
+# Creating REST API
+
+Create a project folder.
+```
+mkdir NodeRestApi
+```
+```
+cd NodeRestApi
+```
+
+Initialize NPM on your new project
+```
+npm init
+```
+Install hapi.js plugin for Restful APIs. 
+```
+$ npm install hapi –save
+```
