@@ -48,3 +48,10 @@ $ npm install mysql --save
 ```
 
 # Usage 
+
+| Description        | Method |Route  | Params
+| ------------- |:-------------:| -----|-----|
+| Creating a new book    | POST |http://localhost:3000/insertBook |title, author, price |
+|Listing all books      | GET      |  http://localhost:3000/GetAllbook | none
+| Listing single book | GET     |   http://localhost:3000/Getbook/{id} | none
+| Deleting a book |DELETE      |   http://localhost:3000//deleteBook/{id} | none
