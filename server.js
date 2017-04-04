@@ -6,8 +6,8 @@ const Joi = require('joi');
 //MySQL Database Connection
 const connection = MySQL.createConnection({
      host: 'localhost',
-     user: 'root',
-     password: '',
+     user: '<db_user>',
+     password: '<db_password>',
      database: 'book_db'
 });
 
