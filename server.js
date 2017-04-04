@@ -97,6 +97,8 @@ server.route({
     }
 });
 
+
+
 //Deleting a book
 server.route({
     method: 'DELETE',
@@ -125,6 +127,8 @@ server.route({
 
     }
 });
+
+
 
 server.start((err) => {
    if (err) {
