@@ -49,6 +49,8 @@ $ npm install mysql --save
 
 # Usage 
 
+Test rest api with postman.
+
 | Description        | Method |Route  | Params
 | ------------- |:-------------:| -----|-----|
 | Creating a new book    | POST |http://localhost:3000/insertBook |title, author, price |
